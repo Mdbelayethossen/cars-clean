@@ -1,36 +1,45 @@
 @import url(./fonts.css);
 @import url(./variable.css);
 @import url(./global.css);
+
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../Img/banner-1.jpg) no-repeat top center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Img/banner-1.jpg) no-repeat top center fixed;
     background-size: cover;
 }
-header .navbar{
+
+header .navbar {
     padding: 1rem 1rem;
 }
-header .navbar .navbar-brand{
+
+header .navbar .navbar-brand {
     font: normal 500 50px/55px Pristina;
     color: #fafd17;
     text-shadow: 3px 3px 5px #4b4c4a;
 }
-header .navbar-nav{
+
+header .navbar-nav {
     padding: 0 0 0 15rem;
 }
-header .navbar-nav .nav-link{
+
+header .navbar-nav .nav-link {
     color: #fff !important;
     font: normal 500 18px/18px var(--open-sans);
 }
-header .navbar-nav .nav-link{
+
+header .navbar-nav .nav-link {
     color: #fff !important;
     font: normal 500 18px/18px var(--open-sans);
     text-transform: uppercase;
 }
-header .navbar-nav .nav-link:hover{
+
+header .navbar-nav .nav-link:hover {
     color: rgb(241, 190, 190) !important;
 }
-header .navbar-nav .nav-link.active{
+
+header .navbar-nav .nav-link.active {
     color: rgb(241, 190, 190) !important;
 }
+
 header .navbar-nav span {
     color: #fff;
     height: inherit;
@@ -40,53 +49,118 @@ header .navbar-nav span {
     border: 1px solid #fff;
     transform: rotate(-28deg);
 }
-header .brand-area{
+
+header .brand-area {
     padding: 4rem 0 10rem 0;
 }
-header .brand-area h3{
+
+header .brand-area h3 {
     margin: 0 50rem 1rem 0;
     padding: .75rem 0;
     text-align: center;
     background: #353534;
 }
-header .brand-area p{
+
+header .brand-area p {
     margin: 1rem 35rem 1.75rem 0;
     padding: .75rem 0;
 }
+
 /* Service area */
-.service{
+.service {
     position: relative;
     background: #f6f6f6;
 }
-.service .service-area{
+
+.service .service-area {
     padding: 5rem 0;
 }
+
 .service .service-area h4 {
     font: normal 500 52px/60px var(--open-sans);
     padding: 1rem 0.5rem 1rem 0;
     color: #333333;
 }
+
 .service .service-area p {
     padding: 1rem 15rem 0 0;
     color: #888888;
 }
-.service .service-area i.fas{
-    font-size: 10rem;
+.service .service-area .box-1{
     position: absolute;
+    top: 8rem;
     z-index: 4;
-    top: 7rem;
+}
+.service .service-area .box-2{
+    position: absolute;
+    top: 6rem;
     left: -3rem;
 }
-.service .service-area .img{
+.service .service-area .box-3{
+    position: absolute;
+    top: 12rem;
+    left: -9rem;
+}
+.service .service-area .box-4{
+    position: absolute;
+    top: 18rem;
+    left: -15rem;
+}
+.service .service-area .box-5{
+    position: absolute;
+    top: 5.9rem;
+    left: 6.8rem;
+}
+.service .service-area .box-6{
+    position: absolute;
+    top: 4rem;
+    left: 12rem;
+}
+.service .service-area .box-7{
+    position: absolute;
+    top: 10rem;
+    right: 3.8rem;
+}
+.service .service-area .img {
     width: 100%;
     height: auto;
     position: absolute;
     top: 6rem;
     right: -2rem;
-    z-index: 2;
+    z-index: 5;
 }
-.service .service-area .img>img{
+
+.service .service-area .img>img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+/* Service area 2 */
+.service-2 {
+    background: #28282e;
+    padding: 1rem 0 2rem 0;
+}
+
+.service-2 p {
+    padding: 0 10rem 3rem 0;
+}
+.service-2 .img {
+    width: 100%;
+    padding: 6rem 0;
+    z-index: 5;
+}
+.service-2 .img>img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.service-2 a.button:hover {
+    background: #aaaaaa;
+    color: #fff;
+    text-decoration: none;
+}
+footer{
+    background: #ef4035;
 }
