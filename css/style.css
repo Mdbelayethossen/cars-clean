@@ -16,6 +16,10 @@ header .navbar .navbar-brand {
     color: #fafd17;
     text-shadow: 3px 3px 5px #4b4c4a;
 }
+header .navbar .navbar-brand:hover {
+    color: #ef4035;
+    text-shadow: 3px 3px 5px #4b4c4a;
+}
 
 header .navbar-nav {
     padding: 0 0 0 15rem;
