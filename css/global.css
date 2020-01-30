@@ -35,3 +35,19 @@ h4{
 .subtitle{
     font: normal 500 17px/18px var(--open-sans);
 }
+.hr-m{
+    width: 20px;
+    height: 0px;
+    border: 1px solid black;
+    display: block;
+    margin-bottom: 1rem;
+}
+span.box-square{
+    position: absolute;
+    color: #fff;
+    width: 8rem;
+    border: 2px solid #fff;
+    height: 8rem;
+    background: #fff;
+    transform: rotate(45deg);
+}

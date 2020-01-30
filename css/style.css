@@ -56,11 +56,37 @@ header .brand-area p{
 /* Service area */
 .service{
     position: relative;
+    background: #f6f6f6;
 }
 .service .service-area{
     padding: 5rem 0;
 }
 .service .service-area h4 {
-    font: normal 600 53px/60px var(--open-sans);
-    padding: 1rem 5.5rem 1rem 0;
+    font: normal 500 52px/60px var(--open-sans);
+    padding: 1rem 0.5rem 1rem 0;
+    color: #333333;
+}
+.service .service-area p {
+    padding: 1rem 15rem 0 0;
+    color: #888888;
+}
+.service .service-area i.fas{
+    font-size: 10rem;
+    position: absolute;
+    z-index: 4;
+    top: 7rem;
+    left: -3rem;
+}
+.service .service-area .img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 6rem;
+    right: -2rem;
+    z-index: 2;
+}
+.service .service-area .img>img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
